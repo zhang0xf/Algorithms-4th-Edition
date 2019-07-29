@@ -9,4 +9,4 @@ Java code is compiled and builded by Intellij on windows, help website : https:/
 
 C++ code is compiled and builded by Visual Studio 2012 
 
-Java stdlib.jar produced by author can find at : https://introcs.cs.princeton.edu/java/stdlib/
+Java stdlib.jar which produced by author can find by : https://introcs.cs.princeton.edu/java/stdlib/

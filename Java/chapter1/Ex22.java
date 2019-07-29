@@ -66,6 +66,7 @@ public class Ex22 {
         // sort the array
         Arrays.sort(whitelist);
 
+        // calculate depth by add arguments in indexOf() function
         int depth = 0;
 
         // read integer key from standard input; print if not in whitelist

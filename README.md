@@ -3,7 +3,7 @@ Algorithms4 exercises
 
 The official reference website of 《Algorithms4》 is : https://algs4.cs.princeton.edu/home/
 
-you can download all of the programs and data at ：https://algs4.cs.princeton.edu/code/
+You can download all of the programs and data at ：https://algs4.cs.princeton.edu/code/
 
 Java code is compiled and builded by Intellij on windows, help website : https://lift.cs.princeton.edu/java/windows/
 

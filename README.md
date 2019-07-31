@@ -7,6 +7,6 @@ You can download all of the programs and data at ：https://algs4.cs.princeton.e
 
 Java code is compiled and builded by Intellij on windows, help website : https://lift.cs.princeton.edu/java/windows/
 
-C++ code is compiled and builded by Visual Studio 2012 
+C++ code is compiled and builded by Visual Studio 2012 on windows.
 
 Java stdlib.jar which produced by author can find at : https://introcs.cs.princeton.edu/java/stdlib/

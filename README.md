@@ -1,7 +1,7 @@
 # Algorithms4
 《Algorithms 4th edition》 exercises
 
-##### some useful website for learning.
+#### some useful website for learning:
 
 The official reference website of 《Algorithms4》 is : https://algs4.cs.princeton.edu/home/
 

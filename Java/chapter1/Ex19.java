@@ -12,7 +12,7 @@
 public class Ex19 {
 
     // fibonacci
-    // When n arrive at NO.40+ the program began so slowly that you can image.
+    // 当n = 40时，program运算变慢明显
 
     public static long F(int n) {
         if (n == 0) return 0;

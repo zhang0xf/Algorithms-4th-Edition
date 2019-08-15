@@ -64,13 +64,11 @@ public class Ex35 {
             n *= 2;
         }
 
-        for (int i = 2; i <= 2 * sides; i++) {
+        for (int i = 2; i <= 2 * sides; i++)
             StdOut.printf("myRandom probability[%d] = %f\n", i, distP[i]);
-        }
         StdOut.println();
-        for (int i = 2; i <= 2 * sides; i++) {
+        for (int i = 2; i <= 2 * sides; i++)
             StdOut.printf("theory probability[%d] = %f\n", i, distS[i]);
-        }
         StdOut.println();
     }
 }

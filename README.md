@@ -11,4 +11,4 @@ Java code is compiled and builded by Intellij on windows, help website : https:/
 
 "stdlib.jar" which produced by author can find at : https://introcs.cs.princeton.edu/java/stdlib/
 
-Various ".jar" interface introduction at : https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/
+"stdlib.jar" interface introduction at : https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/

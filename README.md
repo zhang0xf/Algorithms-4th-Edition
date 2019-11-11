@@ -3,12 +3,12 @@
 
 #### some useful website for learning:
 
-The official reference website of 《Algorithms4》 is : https://algs4.cs.princeton.edu/home/
+[The official reference website of 《Algorithms4》](https://algs4.cs.princeton.edu/home/)
 
-You can download all of the programs and data at ：https://algs4.cs.princeton.edu/code/
+[download all of the programs and data](https://algs4.cs.princeton.edu/code/)
 
-Java code is compiled and builded by Intellij on windows, help website : https://lift.cs.princeton.edu/java/windows/
+[Java code is compiled and builded by Intellij on windows](https://lift.cs.princeton.edu/java/windows/)
 
-"stdlib.jar" which produced by author can find at : https://introcs.cs.princeton.edu/java/stdlib/
+["stdlib.jar" which produced by author](https://introcs.cs.princeton.edu/java/stdlib/)
 
-"stdlib.jar" interface introduction at : https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/
+["stdlib.jar" interface introduction](https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/)

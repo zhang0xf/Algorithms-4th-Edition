@@ -12,6 +12,7 @@
 // compelete brackets ： 补全算术表达式的左括号
 // before : 1 + 2 ) * 3 - 4 ) * 5 - 6 ) ) )
 // after : （（ 1 + 2） * （ （ 3 - 4 ）* （ 5 - 6 ） ） ）
+// 注：作者虽然没给出这题的答案，但是从后面的中序表达式转后续表达式解法，可以看出和作者的差距，这里我的思路是得到整个string然后输出，所以代码显得繁琐，作者直接使用Stdout部分部分的输出结果，将stack栈的特性应用的淋漓尽致！
 
 public class CompelteBracketsByStack {
 

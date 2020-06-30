@@ -32,7 +32,7 @@ public class DoubleNodeListLink<Item> {
     }
 
     public void insertHead(Item item) {
-        Node oldFirst = first;
+        Node oldFirst = first; // 这里直接将待插入的节点作为first，否则插入之后还需要重新定向first！
         first = new Node();
         first.item = item;
         first.Prev = null;

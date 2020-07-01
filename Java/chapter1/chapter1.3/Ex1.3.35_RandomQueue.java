@@ -58,6 +58,11 @@ public class RandomQueue<Item> {
 
         temp = a[--N];
         a[N] = null;
+		
+		if (N > 0 && a.length / 4 == N) {
+            resize(a.length / 2);
+        }
+
         return temp;
     }
 

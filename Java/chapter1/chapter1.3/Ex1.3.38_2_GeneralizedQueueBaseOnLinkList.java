@@ -11,7 +11,7 @@
 
 // base on Linklist
 
-public class GeneralizedQueueBaseOnLinkList<Item> {
+public class GeneralizedQueueOnLinklist<Item> {
 
     private int N;
     private Node first;
@@ -22,7 +22,7 @@ public class GeneralizedQueueBaseOnLinkList<Item> {
         Node next;
     }
 
-    public GeneralizedQueueBaseOnLinkList(int max) {
+    public GeneralizedQueueOnLinklist(int max) {
         // first.item = null;
         // first.next = null;
         // last.item = null;
@@ -78,8 +78,8 @@ public class GeneralizedQueueBaseOnLinkList<Item> {
 
     public static void main(String[] args) {
 
-        GeneralizedQueueBaseOnLinkList<Integer> queue
-                = new GeneralizedQueueBaseOnLinkList<Integer>(10);
+        GeneralizedQueueOnLinklist<Integer> queue
+                = new GeneralizedQueueOnLinklist<Integer>(10);
 
         queue.insert(1);
         queue.insert(2);

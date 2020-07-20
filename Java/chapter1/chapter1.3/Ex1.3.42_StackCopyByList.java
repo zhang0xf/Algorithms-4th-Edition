@@ -10,6 +10,7 @@
  **************************************************************************** */
 
 // notice : base on array is a better way.
+// 作者有更好的答案，见作者解！
 
 public class StackCopyByList<Item> {
 
@@ -81,7 +82,7 @@ public class StackCopyByList<Item> {
 
     public void printStack() {
         Node p = first;
-        while (p.next != null) {
+        while (p != null) {
             StdOut.print(p.item + " ");
             p = p.next;
         }

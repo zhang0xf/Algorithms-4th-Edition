@@ -11,12 +11,12 @@
 
 // with file tinyUf.txt mediumUf.txt largeUf.txt
 
-public class QuickUnio {
+public class QuickUnion {
 
     private int[] id;
     private int count;
 
-    public QuickUnio(int N) {
+    public QuickUnion(int N) {
         id = new int[N];
         for (int i = 0; i < N; i++) {
             id[i] = i;
@@ -50,7 +50,7 @@ public class QuickUnio {
 
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        QuickFind QU = new QuickFind(N);
+        QuickUnion QU = new QuickUnion(N);
 
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
@@ -62,8 +62,6 @@ public class QuickUnio {
 
             QU.union(p, q);
             StdOut.println(p + " -> " + q);
-            QU.printArray();
-            // StdOut.println("access to array times total : " + QU.times());
         }
 
         StdOut.println(QU.count() + " components ");

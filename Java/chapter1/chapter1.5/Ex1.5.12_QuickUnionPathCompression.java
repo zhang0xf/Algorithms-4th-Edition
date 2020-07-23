@@ -36,7 +36,7 @@ public class QuickUnionPathCompression {
     }
 
     // 思想：记录路径上的所有成员，最后一起连接
-    // 作者思想：先找出root，然后重来一遍，逐个连接到root，该过程不产生额外的空间！
+    // 作者思想：先找出root，然后重来一遍，逐个连接到root，该过程不产生额外的空间和更多的数组访问！
     public int find(int p) {
         int cnt = 0;
         while (p != id[p]) {

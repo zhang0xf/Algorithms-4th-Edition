@@ -40,6 +40,11 @@ public class SelectSortAnimation {
             StdDraw.filledRectangle(i + 0.5, 0, 0.3, (double) a[i]);
         }
         StdDraw.show();
+		try {
+            Thread.sleep(600);
+        }
+        catch (InterruptedException ie) {
+        }
     }
 
     public static boolean isSorted(Comparable[] a) {

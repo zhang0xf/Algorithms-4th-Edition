@@ -7,6 +7,8 @@
  *
  ******************************************************************************/
 
+// 关于comparable和comparator的理解参考网站 https://www.cnblogs.com/cxuanBlog/p/10927495.html
+
 import java.util.Arrays;
 import java.util.Comparator;
 

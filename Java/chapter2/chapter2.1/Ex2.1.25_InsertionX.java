@@ -59,7 +59,7 @@ public class InsertionX {
         int exchanges = 0;
         for (int i = n-1; i > 0; i--) {
             if (less(a[i], a[i-1])) {
-                exch(a, i, i-1);
+                exch(a, i, i-1);	
                 exchanges++;
             }
         }
@@ -71,7 +71,7 @@ public class InsertionX {
             Comparable v = a[i];
             int j = i;
             while (less(v, a[j-1])) {
-                a[j] = a[j-1];
+                a[j] = a[j-1];	// 通过比较，只移动大的元素，遇到小的再插入要移动的值，而非每一次都交换，算是一种对插入排序的优化！
                 j--;
             }
             a[j] = v;

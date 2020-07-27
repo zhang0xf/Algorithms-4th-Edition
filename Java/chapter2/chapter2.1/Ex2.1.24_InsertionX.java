@@ -55,11 +55,11 @@ public class InsertionX {
     public static void sort(Comparable[] a) {
         int n = a.length;
 
-        // put smallest element in position to serve as sentinel
+        // put smallest element in position to serve as sentinel //将最小的元素移动的最左边作为哨兵，减少边界判断！算是对插入排序的一种优化！
         int exchanges = 0;
         for (int i = n-1; i > 0; i--) {
             if (less(a[i], a[i-1])) {
-                exch(a, i, i-1);
+                exch(a, i, i-1);	 
                 exchanges++;
             }
         }

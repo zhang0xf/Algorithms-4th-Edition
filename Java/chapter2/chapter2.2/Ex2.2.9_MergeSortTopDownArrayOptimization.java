@@ -36,7 +36,7 @@ public class MergeSortTopDownArrayOptimization {
         int i = lo;
         int j = mid + 1;
 
-        for (int k = 0; k <= hi; k++) {
+        for (int k = 0; k <= hi; k++) {	// 这里应该从lo开始复制，而不是0！0和lo在归并排序中需要特别注意！
             aux[k] = a[k];
         }
 

@@ -51,7 +51,7 @@ public class MergeX {
     private static void merge(Comparable[] src, Comparable[] dst, int lo, int mid, int hi) {
 
         // precondition: src[lo .. mid] and src[mid+1 .. hi] are sorted subarrays
-        assert isSorted(src, lo, mid);
+        assert isSorted(src, lo, mid);	//问题的症结：为什么这里的src是有序的？
         assert isSorted(src, mid+1, hi);
 
         int i = lo, j = mid+1;

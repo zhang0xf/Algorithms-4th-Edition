@@ -13,6 +13,7 @@
 
 public class QuickSort {
 
+	// 避免输入依赖
     public static void sort(Comparable[] a) {
         StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);

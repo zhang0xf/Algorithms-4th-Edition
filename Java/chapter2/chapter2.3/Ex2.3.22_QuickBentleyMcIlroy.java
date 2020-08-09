@@ -94,8 +94,8 @@ public class QuickBentleyMcIlroy {
 
 
         i = j + 1;
-        for (int k = lo; k <= p; k++)
-            exch(a, k, j--);
+        for (int k = lo; k <= p; k++)	// 为什么j不会越界，因为j >= p！如果相等的元素数量 > j左边比V小的元素？没关系相等元素之间会多几次交换
+            exch(a, k, j--);	
         for (int k = hi; k >= q; k--)
             exch(a, k, i++);
 

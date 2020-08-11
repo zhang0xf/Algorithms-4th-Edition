@@ -10,7 +10,7 @@
  **************************************************************************** */
 
 // 优先队列的初级实现：无序链表
-// use with Transaction.java and Date.java
+// 代码有问题：64行崩溃！
 
 public class PriorityQueueByUnorderList<Key extends Comparable<Key>> {
 
@@ -75,8 +75,8 @@ public class PriorityQueueByUnorderList<Key extends Comparable<Key>> {
     public static void main(String[] args) {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
-        PriorityQueueByUnOrderArray<Transaction> pq
-                = new PriorityQueueByUnOrderArray<Transaction>(M + 1);
+        PriorityQueueByUnorderList<Transaction> pq
+                = new PriorityQueueByUnorderList<Transaction>();
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

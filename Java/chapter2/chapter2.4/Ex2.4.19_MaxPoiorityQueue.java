@@ -72,7 +72,8 @@ public class MaxPoiorityQueue<Key extends Comparable<Key>> {
         while (2 * k <= N) {
             int j = 2 * k;
             if (j < N && less(j, j + 1)) j++;   // 2k + 1右孩子
-            exch(k, j);
+            if (!less(k, j)) break;
+			exch(k, j);
             k = j;  // 新的父节点下标（可能是曾经的左孩子，也可能是右孩子）
         }
     }

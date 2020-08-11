@@ -10,7 +10,6 @@
  **************************************************************************** */
 
 // 优先队列的初级实现：有序数组
-// with Date.java and Transaction.java
 
 public class PriorityQueueByOrderArray<Key extends Comparable<Key>/*, Value*/> {
 
@@ -79,8 +78,8 @@ public class PriorityQueueByOrderArray<Key extends Comparable<Key>/*, Value*/> {
     public static void main(String[] args) {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
-        PriorityQueueByUnOrderArray<Transaction> pq
-                = new PriorityQueueByUnOrderArray<Transaction>(M + 1);
+        PriorityQueueByOrderArray<Transaction> pq
+                = new PriorityQueueByOrderArray<Transaction>(M + 1);
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

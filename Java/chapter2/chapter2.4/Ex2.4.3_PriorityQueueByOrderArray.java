@@ -80,7 +80,7 @@ public class PriorityQueueByOrderArray<Key extends Comparable<Key>/*, Value*/> {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
         PriorityQueueByUnOrderArray<Transaction> pq
-                = new PriorityQueueByUnOrderArray<Transaction>();
+                = new PriorityQueueByUnOrderArray<Transaction>(M + 1);
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

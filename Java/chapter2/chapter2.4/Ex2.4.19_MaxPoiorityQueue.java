@@ -11,8 +11,6 @@
 
 // 使用二叉堆实现的优先队列：面向最大值的优先队列
 
-// 本题解答见构造函数
-
 public class MaxPoiorityQueue<Key extends Comparable<Key>> {
 
     private Key[] pq;
@@ -20,12 +18,6 @@ public class MaxPoiorityQueue<Key extends Comparable<Key>> {
 
     public MaxPoiorityQueue(int max) {
         pq = (Key[]) new Comparable[max + 1];   // pq[0]不使用
-    }
-
-    // 使用类swim方法构造优先队列(假设a也是a[0]不使用)
-    public MaxPoiorityQueue(Key[] a) {
-        for (int i = 1; i < a.length; i++)
-            swim(i);
     }
 
     public boolean isEmpty() {
@@ -73,7 +65,7 @@ public class MaxPoiorityQueue<Key extends Comparable<Key>> {
             int j = 2 * k;
             if (j < N && less(j, j + 1)) j++;   // 2k + 1右孩子
             if (!less(k, j)) break;
-			exch(k, j);
+            exch(k, j);
             k = j;  // 新的父节点下标（可能是曾经的左孩子，也可能是右孩子）
         }
     }
@@ -81,8 +73,8 @@ public class MaxPoiorityQueue<Key extends Comparable<Key>> {
     public static void main(String[] args) {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
-        PriorityQueueByUnOrderArray<Transaction> pq
-                = new PriorityQueueByUnOrderArray<Transaction>(M + 1);
+        MaxPoiorityQueue<Transaction> pq
+                = new MaxPoiorityQueue<Transaction>(M + 1);
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

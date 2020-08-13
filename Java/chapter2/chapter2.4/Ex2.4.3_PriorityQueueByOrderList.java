@@ -11,7 +11,6 @@
 
 // 优先队列的初级实现：有序的链表
 // use with Transaction.java and Date.java
-// 代码存在问题！
 
 public class PriorityQueueByOrderList<Key extends Comparable<Key>> {
 
@@ -25,6 +24,12 @@ public class PriorityQueueByOrderList<Key extends Comparable<Key>> {
 
     public boolean less(Key v, Key w) {
         return v.compareTo(w) < 0;
+    }
+
+    public void exch(Node v, Node w) {
+        Key t = v.key;
+        v.key = w.key;
+        w.key = t;
     }
 
     public boolean isEmpty() {
@@ -45,11 +50,10 @@ public class PriorityQueueByOrderList<Key extends Comparable<Key>> {
         Node p = first;
         while (p.next != null) {
             if (less(p.key, p.next.key)) {
-                // 交换两个节点
-                Node pNext = p.next;
-                p.next = p.next.next;
-                pNext.next = p;
+                // 只交换两个节点的值，不改变节点的链接
+                exch(p, p.next);
             }
+            p = p.next;
         }
         N++;
     }

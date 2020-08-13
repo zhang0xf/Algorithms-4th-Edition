@@ -10,7 +10,6 @@
  **************************************************************************** */
 
 // 优先队列的初级实现：无序链表
-// 代码有问题：64行崩溃！
 
 public class PriorityQueueByUnorderList<Key extends Comparable<Key>> {
 
@@ -57,15 +56,21 @@ public class PriorityQueueByUnorderList<Key extends Comparable<Key>> {
 
     // 删除最大元素(遍历两次链表，第一次找到最大值，第二次删除最大值)
     public Key delMax() {
-        Node p = first;
-        Key max = null;
+        Node prev = first;
+        Node p = prev.next;
+        Key max = max();
+        if (prev.key == max) {
+            first = first.next;
+            N--;
+            return prev.key;
+        }
         while (p != null) {
-            if (p.key.equals(max())) {
-                max = p.key;
-                p.next = p.next.next;
+            if (p.key.equals(max)) {
+                prev.next = p.next;
                 break;
             }
-            p = p.next;
+            prev = prev.next;
+            p = prev.next;
         }
         N--;
         return max;
@@ -83,6 +88,8 @@ public class PriorityQueueByUnorderList<Key extends Comparable<Key>> {
             if (pq.size() > M)
                 pq.delMax();    // 最小的M个元素在优先队列中
         }
+        StdOut.println("pq size :" + pq.size());
+
         Stack<Transaction> stack = new Stack<Transaction>();
         while (!pq.isEmpty()) {
             stack.push(pq.delMax());

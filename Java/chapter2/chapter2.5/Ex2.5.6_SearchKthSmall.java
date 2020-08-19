@@ -57,7 +57,7 @@ public class SearchKthSmall {
     public static Comparable select(Comparable[] a, int k, int lo, int hi) {
         if (lo < 0 || hi > a.length || k < 0 || k > a.length)
             return null;
-        sort(a);
+        // sort(a); // 不需要完全有序
         int j = partition(a, lo, hi);
         if (j == k) return a[k];
         else if (j > k) select(a, k, lo, j - 1);

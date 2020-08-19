@@ -73,6 +73,7 @@ public class SearchKthSmall {
         }
 
         StdOut.println(" result ：" + SearchKthSmall.select(a, 2, 0, N - 1));
+		sort(a); // 只为测试select接口是否正确
         show(a);
     }
 }

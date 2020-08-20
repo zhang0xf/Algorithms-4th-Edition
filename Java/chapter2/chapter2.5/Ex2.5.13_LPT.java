@@ -10,7 +10,7 @@
  **************************************************************************** */
 
 // 负载均衡（最长处理时间优先原则）
-// use with MinPriorityQueue.java and TaskForSPT.java
+// use with MinPriorityQueue.java and TaskForSPT.java and TaskForSPT.java
 // 注：处理器优先级高代表当前任务时间总和长
 public class LPT {
 

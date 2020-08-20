@@ -19,11 +19,11 @@ public class KendallTau {
 
         int[] ainv = new int[n];
         for (int i = 0; i < n; i++)
-            ainv[a[i]] = i;
+            ainv[a[i]] = i;	// 数组逆序，用于找到值对应的下标！
 
         Integer[] bnew = new Integer[n];
         for (int i = 0; i < n; i++)
-            bnew[i] = ainv[b[i]];
+            bnew[i] = ainv[b[i]];	// 通过ainv[]找到b[i]值对应的a[i]值在a[]中的下标
 
         return Inversions.count(bnew);
     }

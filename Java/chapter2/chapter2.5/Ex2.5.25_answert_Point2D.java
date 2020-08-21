@@ -95,7 +95,7 @@ public final class Point2D implements Comparable<Point2D> {
      * @return the angle (in radians) of this point in polar coordiantes (between –&pi; and &pi;)
      */
     public double theta() {
-        return Math.atan2(y, x);
+        return Math.atan2(y, x);	// 方位角
     }
 
     /**

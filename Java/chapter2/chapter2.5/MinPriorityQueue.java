@@ -41,6 +41,10 @@ public class MinPriorityQueue<Key extends Comparable<Key>/*, Value*/> {
         return min;
     }
 
+    public Key min() {
+        return pq[1];
+    }
+
     // 与面向最大值相反，只需要改动less函数即可
     public boolean greater(int i, int j) {
         return pq[i].compareTo(pq[j]) > 0;

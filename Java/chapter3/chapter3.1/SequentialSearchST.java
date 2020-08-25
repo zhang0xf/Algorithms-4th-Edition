@@ -9,12 +9,9 @@
  *
  **************************************************************************** */
 
-// 基于无序链表实现符号表
-// keys接口尚未实现，原因：java迭代器未完全掌握
+// 符号表：基于无序链表
 
-import java.util.Iterator;
-
-public class SequentialSearchSTByList<Key, Value> implements Iterable<Key> {
+public class SequentialSearchST<Key, Value> {
 
     private Node first;
     private int N;
@@ -82,48 +79,13 @@ public class SequentialSearchSTByList<Key, Value> implements Iterable<Key> {
         return N;
     }
 
-    @Override
-    public Iterator<Key> iterator() {
-        return new KeySetIterator();
-    }
-
-    private class KeySetIterator implements Iterator<Key> {
-
-        private Node p;
-
-        public KeySetIterator() {
-            p = first;
-        }
-
-        @Override
-        public boolean hasNext() {
-            return p.next != null;
-        }
-
-        @Override
-        public Key next() {
-            if (p.key == null) throw new NullPointerException();
-            return p.key;
-        }
-
-        @Override
-        public void remove() {
-
-        }
-    }
-
-    // // 表中所有键的集合
-    // Iterable<Key> Keys() {
-    //     // 暂时不知如何实现，作者直接调用treeMap的keySet()方法。
-    //
-    // }
-
-    public void show() {
+    // 表中所有键的集合：Queue实现了Iterable，直接返回Queue<Key>类型
+    Iterable<Key> keys() {
+        Queue<Key> queue = new Queue<Key>();
         for (Node x = first; x != null; x = x.next) {
-            StdOut.print(x.key + " ");
-            StdOut.print(x.val + " ");
+            queue.enqueue(x.key);
         }
-        StdOut.println();
+        return queue;
     }
 
     public static void main(String[] args) {

@@ -10,14 +10,14 @@
  **************************************************************************** */
 
 // 计算GPA
-// 依赖：SequentialSearchSTByList.java
+// SequentialSearchST.java
 
-public class GPACalculate {
+public class GPA {
 
     public static void main(String[] args) {
 
-        SequentialSearchSTByList<String, Double> st
-                = new SequentialSearchSTByList<String, Double>();
+        SequentialSearchST<String, Double> st
+                = new SequentialSearchST<String, Double>();
 
         // ctrl + d 结束标准输入
         while (!StdIn.isEmpty()) {
@@ -26,6 +26,18 @@ public class GPACalculate {
             st.put(s, d);
         }
 
-        st.show();
+        for (String key : st.keys()) {
+            StdOut.print(key + " " + st.get(key) + " ");
+        }
+        StdOut.println();
+
+        // calculate GPA
+        Double GPA = 0.0;
+        int N = 0;
+        for (String key : st.keys()) {
+            GPA += st.get(key);
+            N++;
+        }
+        StdOut.println("GPA = " + GPA / N);
     }
 }

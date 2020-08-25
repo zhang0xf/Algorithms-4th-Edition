@@ -18,7 +18,7 @@ public class ArrayST<Key, Value> {
     private int N;
 
     public ArrayST(int capacity) {
-        keys = (Key[]) new Comparable[capacity];
+        keys = (Key[]) new Comparable[capacity];	// 无序的可以直接使用Object，有序的才需要使用Comparable
         vals = (Value[]) new Object[capacity];
     }
 

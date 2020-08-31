@@ -183,8 +183,8 @@ public class BST<Key extends Comparable<Key>, Value> {
         // 返回以x为根节点的子树中，小于x.key键的数量
         if (x == null) return 0;    // 递归结束：向上return！
         int cmp = key.compareTo(x.key);
-        if (cmp > 0) return rank(x.left, key);
-        else if (cmp < 0)
+        if (cmp < 0) return rank(x.left, key);
+        else if (cmp > 0)
             return rank(x.right, key) + size(x.left) + 1; // 左子数和根节点全部小于x.key //递归性！
         else return size(x.left);
     }

@@ -23,6 +23,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         private Node left;
         private Node right;
         private int N;  // 节点计数器
+        private int H;  // 节点高度
 
         public Node(Key key, Value val, int N) {
             this.key = key;
@@ -42,6 +43,27 @@ public class BST<Key extends Comparable<Key>, Value> {
         else return x.N;
     }
 
+    // 使用类似添加N的方法添加H求高度（空间线性级别，查询耗时常数级别）
+    public int height() {
+        return height(root);
+    }
+
+    public int height(Node x) {
+        if (x == null) return 0;
+        else return x.H;
+    }
+
+    // 使用递归求高度（用时线性级别，所需空间和树的高度成正比）
+    public int heightRecursion() {
+        return heightRecursion(root);
+    }
+
+    public int heightRecursion(Node x) {
+        if (x == null) return 0;    // 这里不能只使用x.left = null和x.right = null中的一个来判断！
+        return (heightRecursion(x.left) >= heightRecursion(x.right) ? heightRecursion(x.left) :
+                heightRecursion(x.right)) + 1;
+    }
+
     public Value get(Key key) {
         return get(root, key);
     }
@@ -52,6 +74,19 @@ public class BST<Key extends Comparable<Key>, Value> {
         if (cmp < 0) return get(x.left, key);
         else if (cmp > 0) return get(x.right, key);
         else return x.val;
+    }
+
+    public boolean contains(Key key) {
+        return contains(root, key);
+    }
+
+    public boolean contains(Node x, Key key) {
+        if (x == null) return false;    // 已经递归说明上一层没有找到，如果x为null，则找不到key了！
+        int cmp = key.compareTo(x.key);
+        if (cmp < 0) return contains(x.left, key);
+        else if (cmp > 0) return contains(x.right, key);
+        else return true;
+        // 可以直接调用get()接口，来判断是否存在key！
     }
 
     public void put(Key key, Value val) {
@@ -68,6 +103,8 @@ public class BST<Key extends Comparable<Key>, Value> {
         else x.val = val;
         // 更新计数器的值
         x.N = size(x.left) + size(x.right) + 1; // 以x为根节点的子树所有计数器的值，沿着路径向上更新
+        // 更新树高
+        x.H = (height(x.left) >= size(x.right) ? height(x.left) : size(x.right)) + 1;
         return x;
     }
 
@@ -179,6 +216,7 @@ public class BST<Key extends Comparable<Key>, Value> {
             return x.right; // 这里检查的其实是:x.left.left == null；所以在删除左子数的时候把x.left.right右子树（所有节点小于x根节点）链接到x.left保证大小关系。
         x.left = deleteMin(x.left);
         x.N = size(x.left) + size(x.right) + 1;
+        x.H = (height(x.left) >= size(x.right) ? height(x.left) : size(x.right)) + 1;
         return x;
     }
 
@@ -192,6 +230,7 @@ public class BST<Key extends Comparable<Key>, Value> {
             return x.left; // 当x.right.right = null时，删除x.right需要把x.right.left加入到x.right；否则将找不到这个左子数。
         x.right = deleteMax(x.right);
         x.N = size(x.left) + size(x.right) + 1;
+        x.H = (height(x.left) >= size(x.right) ? height(x.left) : size(x.right)) + 1;
         return x;
     }
 
@@ -217,6 +256,7 @@ public class BST<Key extends Comparable<Key>, Value> {
             x.left = t.left;    // 左子树链接到x根节点
         }
         x.N = size(x.left) + size(x.right) + 1; // 沿路径向上更新计数器
+        x.H = (height(x.left) >= size(x.right) ? height(x.left) : size(x.right)) + 1;   // 更新树高
         return x;
     }
 
@@ -251,6 +291,9 @@ public class BST<Key extends Comparable<Key>, Value> {
             st.put(key, i);
         }
 
+        StdOut.println("height :" + st.height());
+        StdOut.println("height recursion :" + st.heightRecursion());
+
         // 打印
         for (String s : st.keys())
             StdOut.println(s + " " + st.get(s));
@@ -276,8 +319,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         StdOut.println("ceiling :" + st.ceiling("fei"));
         StdOut.println("floor :" + st.floor("fei"));
         StdOut.println("floor :" + st.floor("error"));  // 测试null
-
-        // if (st.contains("fei")) StdOut.println("fei true");
-        // else StdOut.println("fei false");
+        if (st.contains("fei")) StdOut.println("fei true");
+        else StdOut.println("fei false");
     }
 }

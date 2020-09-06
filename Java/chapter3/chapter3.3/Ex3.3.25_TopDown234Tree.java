@@ -78,6 +78,7 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
     public void put(Key key, Value val) {
         root = put(root, key, val);
+        root.color = BLACK; // 重要！root的值不能变为红色。
     }
 
     // 只有左连接是红链接
@@ -92,8 +93,8 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
         // root为4-节点
         // isRED有非null判断
         if (x == root &&
-                /* x.left != null && */isRED(x.left) &&  // 红链接
-                /* x.left.left != null &&*/ isRED(x.left.left)   // 红链接
+                isRED(x.left) &&  // 红链接
+                x.left != null && isRED(x.left.left)   // 红链接
         ) {
             root = rotateRight(root);   // 右旋
             if (isRED(root.left) && isRED(root.right))
@@ -104,8 +105,8 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
         // 1.父节点为2-节点的4-节点(2-节点的左连接)
         if (!isRED(x.left) &&
-                isRED(x.left.left) &&
-                isRED(x.left.left.left)
+                x.left != null && isRED(x.left.left) &&
+                x.left.left != null && isRED(x.left.left.left)
         ) {
             x.left = rotateRight(x.left);   // 右旋
             if (isRED(x.left.left) && isRED(x.left.right))
@@ -114,8 +115,8 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
         // 2.父节点为2-节点的4-节点(2-节点的右连接)
         if (!isRED(x.right) &&
-                isRED(x.right.left) &&
-                isRED(x.right.left.left)
+                x.right != null && isRED(x.right.left) &&
+                x.right.left != null && isRED(x.right.left.left)
         ) {
             x.left = rotateRight(x.left);   // 右旋
             if (isRED(x.left.left) && isRED(x.left.right))
@@ -125,10 +126,10 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
         // 3.父节点为3-节点的4-节点（3-节点的左连接）
         // isRED有非null判断
         if (isRED(x.left) &&
-                isRED(x.left.left) &&    // 确定父节点为3-节点
-                !isRED(x.left.left.left) && // 普通黑链接
-                isRED(x.left.left.left.left) &&
-                isRED(x.left.left.left.left.left) // 要处理的节点为4-节点
+                x.left != null && isRED(x.left.left) &&    // 确定父节点为3-节点
+                x.left.left != null && !isRED(x.left.left.left) && // 普通黑链接
+                x.left.left.left != null && isRED(x.left.left.left.left) &&
+                x.left.left.left.left != null && isRED(x.left.left.left.left.left) // 要处理的节点为4-节点
         ) {
             x.left.left.left = rotateRight(x.left.left.left);
             if (isRED(x.left.left.left.left) && isRED(x.left.left.left.right))
@@ -137,10 +138,10 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
         // 4. 父节点为3-节点的4-节点（3-节点的中连接）
         if (isRED(x.left) &&
-                isRED(x.left.left) &&    // 确定父节点为3-节点
+                x.left != null && isRED(x.left.left) &&    // 确定父节点为3-节点
                 !isRED(x.left.right) && // 普通黑链接
-                isRED(x.left.right.left) &&
-                isRED(x.left.right.left.left) // 要处理的节点为4-节点
+                x.left.right != null && isRED(x.left.right.left) &&
+                x.left.right.left != null && isRED(x.left.right.left.left) // 要处理的节点为4-节点
         ) {
             x.left.right.left = rotateRight(x.left.right.left);
             if (isRED(x.left.right.left.left) && isRED(x.left.right.left.right))
@@ -149,10 +150,10 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
         // 5.父节点为3-节点的4-节点（3-节点的右连接）
         if (isRED(x.left) &&
-                isRED(x.left.left) &&    // 确定父节点为3-节点
-                !isRED(x.right.left) && // 普通黑链接
-                isRED(x.right.left.left) &&
-                isRED(x.right.left.left.left) // 要处理的节点为4-节点
+                x.left != null && isRED(x.left.left) &&    // 确定父节点为3-节点
+                x.right != null && !isRED(x.right.left) && // 普通黑链接
+                x.right.left != null && isRED(x.right.left.left) &&
+                x.right.left.left != null && isRED(x.right.left.left.left) // 要处理的节点为4-节点
         ) {
             x.right.left = rotateRight(x.right.left);
             if (isRED(x.right.left.left) && isRED(x.right.left.right))
@@ -174,5 +175,14 @@ public class TopDown234Tree<Key extends Comparable<Key>, Value> {
 
     public static void main(String[] args) {
 
+        TopDown234Tree<String, Integer> st = new TopDown234Tree<String, Integer>();
+
+        // stdin : zhang fei after reading java
+        for (int i = 0; !StdIn.isEmpty(); i++) {
+            String key = StdIn.readString();
+            st.put(key, i);
+        }
+
+        // 使用debug查看内存：对于少量数据正确，数据较多的情况尚未验证！
     }
 }

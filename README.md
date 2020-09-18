@@ -1,5 +1,5 @@
 # Algorithms4
-《Algorithms 4th edition》 exercises
+《Algorithms》4th edition exercises
 
 #### Organization
 Contents:

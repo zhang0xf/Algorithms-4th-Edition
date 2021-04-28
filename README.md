@@ -31,7 +31,7 @@
 
 * [official website about 《Algorithms》 4th](https://algs4.cs.princeton.edu/home/)
 
-* [code : programs and data](https://algs4.cs.princeton.edu/code/)
+* [code and test data](https://algs4.cs.princeton.edu/code/)
 
 * [windows IDEA : Intellij](https://lift.cs.princeton.edu/java/windows/)
 

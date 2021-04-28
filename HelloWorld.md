@@ -14,4 +14,4 @@ official website : [Hello World in Java (Windows)](https://lift.cs.princeton.edu
   3. 展示如何在command line中编译并执行一个程序；
   4. 展示如何使用stdlib.jar；
   5. 此工程并不适合用来作为编写《算法4》习题的环境；
-  6. 关于stdlib.jar的细节见：[Standard Libraries](https://introcs.cs.princeton.edu/java/stdlib/)
+  6. stdlib.jar只是algs4.jar的一部分，关于stdlib.jar的细节见：[Standard Libraries](https://introcs.cs.princeton.edu/java/stdlib/)

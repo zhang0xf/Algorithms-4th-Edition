@@ -1,6 +1,6 @@
 # Algorithms4
 
-official website : [Java Algorithms and Clients](https://algs4.cs.princeton.edu/home/)
+official website : [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
 
 #### Contents
 

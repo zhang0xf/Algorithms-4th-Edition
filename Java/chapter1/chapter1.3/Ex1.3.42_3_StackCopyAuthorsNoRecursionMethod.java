@@ -9,6 +9,8 @@
  *
  **************************************************************************** */
 
+// *
+
 public class StackCopyAuthorsNoRecursionMethod<Item> {
 
     private int N;

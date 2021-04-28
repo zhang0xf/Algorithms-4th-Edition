@@ -1,5 +1,6 @@
 # Algorithms4
-《Algorithms》4th edition
+
+official website : [Java Algorithms and Clients](https://algs4.cs.princeton.edu/home/)
 
 #### Contents
 
@@ -26,19 +27,3 @@
    * chapter4.2 : Directed Graphs
    * chapter4.3 : Minimum Spanning Trees
    * chapter4.4 : Shortest Paths
-
-#### Website for learning:
-
-* [official website about 《Algorithms》 4th](https://algs4.cs.princeton.edu/home/)
-
-* [code and test data](https://algs4.cs.princeton.edu/code/)
-
-* [windows IDEA : Intellij](https://lift.cs.princeton.edu/java/windows/)
-
-#### Download stdlib.jar:
-
-* [stdlib.jar](https://introcs.cs.princeton.edu/java/stdlib/)
-
-#### Interface of stdlib.jar
-
-* [interface](https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/)

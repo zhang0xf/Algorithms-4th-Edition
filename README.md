@@ -27,7 +27,7 @@
    * chapter4.3 : Minimum Spanning Trees
    * chapter4.4 : Shortest Paths
 
-#### website for learning:
+#### Website for learning:
 
 * [official website about 《Algorithms》 4th](https://algs4.cs.princeton.edu/home/)
 
@@ -35,10 +35,10 @@
 
 * [windows IDEA : Intellij](https://lift.cs.princeton.edu/java/windows/)
 
-#### download stdlib.jar:
+#### Download stdlib.jar:
 
 * [stdlib.jar](https://introcs.cs.princeton.edu/java/stdlib/)
 
-#### interface of stdlib.jar
+#### Interface of stdlib.jar
 
 * [interface](https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/)

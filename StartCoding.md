@@ -11,6 +11,7 @@ Official website：[Java Algorithms and Clients](https://algs4.cs.princeton.edu/
 5. 在工程目录下新建一个文件夹（如：src）用于存放练习题的源码。可以创建出目录结构来清晰地分类出各章节的习题。
 6. Mark src as Sources：file -> Project Structure -> Project Settins -> Modules -> Sources -> Mark as -> Sources。
 7. 编写习题。
+8. [option]：将project name改为”name“，将根目录改为”name“。
 
 ##### 二、自己新建一个工程，并导入algs4.jar
 

@@ -52,6 +52,22 @@
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex19" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex24" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer/Ex01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer/Ex02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer/Ex05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer/Ex16_Ex17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.1/answer/Ex29" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.2/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.3/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.4/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.5/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter3/chapter3.3/answer/Ex33" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />

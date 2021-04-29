@@ -102,22 +102,22 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1619679141428">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1619693020194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619679141428" />
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619682314001">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619693020194" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619694950980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619682314001" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619694950980" />
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619677437937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1619677437937" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619685211325">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619692836138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619685211325" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619692836138" />
     <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619682294519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,9 +142,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619685548154">
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619694613885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619685548154" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619694613885" />
   </component>
 </project>

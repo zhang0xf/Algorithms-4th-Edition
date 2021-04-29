@@ -31,6 +31,9 @@ import edu.princeton.cs.algs4.Quick3way;
 import edu.princeton.cs.algs4.QuickX;
 import edu.princeton.cs.algs4.Selection;
 import edu.princeton.cs.algs4.Shell;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.Stopwatch;
 
 import java.util.Arrays;
 

@@ -47,7 +47,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pCOS 226" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -106,22 +106,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619679141428" />
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619679145240">
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619682314001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619679145240" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619682314001" />
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619677437937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1619677437937" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619671737797">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619682071114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619671737797" />
-    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619676700837">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619682071114" />
+    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619682294519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1619676700837" />
+    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1619682294519" />
     <state x="680" y="281" key="FileChooserDialogImpl" timestamp="1619670083936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,9 +142,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619678785561">
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619681758930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619678785561" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619681758930" />
   </component>
 </project>

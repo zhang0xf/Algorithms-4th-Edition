@@ -36,6 +36,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.3/answer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.3/answer/Ex22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.3/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex25" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />

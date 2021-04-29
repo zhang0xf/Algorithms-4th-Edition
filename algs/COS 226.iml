@@ -27,7 +27,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer/Ex21" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer/Ex24_Ex25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.2/Ex11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.2/Ex09_Ex20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.2/Ex19" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />

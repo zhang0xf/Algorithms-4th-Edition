@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
@@ -46,6 +47,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pCOS 226" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
@@ -53,11 +55,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex18_1_TraceInsertion">
+  <component name="RunManager" selected="Application.Merge">
     <configuration name="CompareInt" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CompareInt" />
       <module name="COS 226" />
       <option name="PROGRAM_PARAMETERS" value="1 3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex06_1_MergeSortUpToDown" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex06_1_MergeSortUpToDown" />
+      <module name="COS 226" />
       <method v="2" />
     </configuration>
     <configuration name="Ex17_InsertSortAnimation" type="Application" factoryName="Application">
@@ -77,6 +84,11 @@
       <module name="COS 226" />
       <method v="2" />
     </configuration>
+    <configuration name="Merge" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Merge" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
@@ -91,41 +103,49 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1619671747748">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1619676337558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619671747748" />
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619671516971">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619676337558" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619676330930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619671516971" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619676330930" />
+    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619677437937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1619677437937" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619671737797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619671737797" />
+    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619676700837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1619676700837" />
     <state x="680" y="281" key="FileChooserDialogImpl" timestamp="1619670083936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619670083936" />
-    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1619671365695">
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1619676375432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
-    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1619671365695">
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1619676375432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
-    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1619671365695">
+    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1619676375432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
-    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1619671365695">
+    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1619676375432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
-    <state x="404" y="139" key="SettingsEditor" timestamp="1619671477198">
+    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619677430954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="404" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619671477198" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619677430954" />
   </component>
 </project>

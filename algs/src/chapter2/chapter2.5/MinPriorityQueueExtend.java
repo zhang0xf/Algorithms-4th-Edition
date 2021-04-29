@@ -11,12 +11,17 @@
 
 // 使用二叉堆实现优先队列：面向最小元素的优先队列
 
-public class MinPriorityQueue<Key extends Comparable<Key>/*, Value*/> {
+import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Transaction;
+
+public class MinPriorityQueueExtend<Key extends Comparable<Key>/*, Value*/> {
 
     private Key[] pq;
     private int N = 0;
 
-    public MinPriorityQueue(int max) {
+    public MinPriorityQueueExtend(int max) {
         pq = (Key[]) new Comparable[max + 1];   // pq[0]不使用
     }
 
@@ -76,8 +81,8 @@ public class MinPriorityQueue<Key extends Comparable<Key>/*, Value*/> {
     public static void main(String[] args) {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
-        MinPriorityQueue<Transaction> pq
-                = new MinPriorityQueue<Transaction>(M + 1);
+        MinPriorityQueueExtend<Transaction> pq
+                = new MinPriorityQueueExtend<Transaction>(M + 1);
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

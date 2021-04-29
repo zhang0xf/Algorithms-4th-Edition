@@ -11,6 +11,9 @@
 
 // 绘制排序过程
 
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdRandom;
+
 public class Ex17_2_SelectSortAnimation {
 
     private static boolean less(Comparable v, Comparable w) {

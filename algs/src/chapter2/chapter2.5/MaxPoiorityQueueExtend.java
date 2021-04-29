@@ -11,12 +11,17 @@
 
 // 使用二叉堆实现的优先队列：面向最大值的优先队列
 
-public class MaxPoiorityQueue<Key extends Comparable<Key>> {
+import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Transaction;
+
+public class MaxPoiorityQueueExtend<Key extends Comparable<Key>> {
 
     private Key[] pq;
     private int N = 0;
 
-    public MaxPoiorityQueue(int max) {
+    public MaxPoiorityQueueExtend(int max) {
         pq = (Key[]) new Comparable[max + 1];   // pq[0]不使用
     }
 
@@ -77,8 +82,8 @@ public class MaxPoiorityQueue<Key extends Comparable<Key>> {
     public static void main(String[] args) {
         // 打印输入流中最大的M行
         int M = Integer.parseInt(args[0]);
-        MaxPoiorityQueue<Transaction> pq
-                = new MaxPoiorityQueue<Transaction>(M + 1);
+        MaxPoiorityQueueExtend<Transaction> pq
+                = new MaxPoiorityQueueExtend<Transaction>(M + 1);
 
         while (StdIn.hasNextLine()) {
             pq.insert(new Transaction(StdIn.readLine()));

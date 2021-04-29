@@ -42,6 +42,16 @@
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex15" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.4/answer/Ex25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.5/answer/Ex25" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />

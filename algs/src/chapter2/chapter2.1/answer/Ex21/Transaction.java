@@ -10,6 +10,7 @@
 // 关于comparable和comparator的理解参考网站 https://www.cnblogs.com/cxuanBlog/p/10927495.html
 
 import edu.princeton.cs.algs4.Date;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 import java.util.Comparator;

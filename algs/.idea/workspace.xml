@@ -114,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1619677437937" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619682071114">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619685211325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619682071114" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619685211325" />
     <state x="714" y="387" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619682294519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,9 +142,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619681758930">
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619685548154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619681758930" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619685548154" />
   </component>
 </project>

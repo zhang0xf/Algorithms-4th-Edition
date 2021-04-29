@@ -13,6 +13,8 @@
 // use with Date.java file
 
 import edu.princeton.cs.algs4.Date;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 
 public class Ex11_ShellSortArrayStored {
 

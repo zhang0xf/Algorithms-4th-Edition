@@ -11,6 +11,9 @@
 
 // 两个count++的区别和含义？（见下文注释）
 
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+
 public class Ex12_ShellSortRatio {
 
     private static int count; // 递增序列每个元素带来的比较次数！

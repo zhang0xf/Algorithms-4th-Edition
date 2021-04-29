@@ -10,6 +10,8 @@
  *
  ******************************************************************************/
 
+import edu.princeton.cs.algs4.StdDraw;
+
 import java.awt.Font;
 
 public class Ex18_2_TraceSelection {

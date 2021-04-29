@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="All Places" />
   </component>
   <component name="ChangeListManager">
@@ -103,14 +102,14 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1619676337558">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1619679141428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619676337558" />
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619676330930">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619679141428" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619679145240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619676330930" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619679145240" />
     <state x="736" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619677437937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,9 +142,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619676375432" />
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619677430954">
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor" timestamp="1619678785561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619677430954" />
+    <state x="404" y="139" width="1201" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619678785561" />
   </component>
 </project>

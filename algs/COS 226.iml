@@ -16,7 +16,18 @@
       <sourceFolder url="file://$MODULE_DIR$/src/chapter3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.3/Examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.3/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer/Ex07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer/Ex12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer/Ex13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer/Ex14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter1/chapter1.5/answer/Ex17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer/Ex21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/chapter2/chapter2.1/answer/Ex24_Ex25" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />
@@ -25,5 +36,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="algs4" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.lift/stdlib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.lift/stdlib.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

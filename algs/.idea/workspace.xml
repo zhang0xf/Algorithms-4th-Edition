@@ -42,17 +42,34 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.lift/stdlib.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.CompareInt">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ex18_1_TraceInsertion">
     <configuration name="CompareInt" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CompareInt" />
       <module name="COS 226" />
       <option name="PROGRAM_PARAMETERS" value="1 3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex17_InsertSortAnimation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex17_InsertSortAnimation" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="9" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex18_1_TraceInsertion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ex18_1_TraceInsertion" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="10" />
       <method v="2" />
     </configuration>
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application">
@@ -74,33 +91,41 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1619618983365">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1619671747748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619618983365" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619617049553">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619671747748" />
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619671516971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619617049553" />
-    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1619619563332">
+    <state x="736" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1619671516971" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619671737797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619619563332" />
-    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1619619563332">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619671737797" />
+    <state x="680" y="281" key="FileChooserDialogImpl" timestamp="1619670083936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619619563332" />
-    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1619619563332">
+    <state x="680" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619670083936" />
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1619671365695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619619563332" />
-    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1619619563332">
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1619671365695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619619563332" />
-    <state x="565" y="93" key="SettingsEditor" timestamp="1619661088040">
+    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1619671365695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619661088040" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1619671365695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619671365695" />
+    <state x="404" y="139" key="SettingsEditor" timestamp="1619671477198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619671477198" />
   </component>
 </project>

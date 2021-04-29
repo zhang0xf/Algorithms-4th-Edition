@@ -1,2 +1,5 @@
 # Compiled class file
 *.class
+
+# algs_data floder
+algs4-data

@@ -37,6 +37,6 @@ Official website：[Java Algorithms and Clients](https://algs4.cs.princeton.edu/
 
 并不推荐，因为作者的配置非常全面，没有必要自己搭建。
 
-#### 输入和测试文件
+#### Input zip
 
 algs_data.zip的地址：[algs_data.zip](https://algs4.cs.princeton.edu/code/)

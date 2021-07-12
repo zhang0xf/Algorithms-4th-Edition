@@ -1,6 +1,6 @@
 # Algorithms4
 
-official website : [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
+Reference website : [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
 
 #### Contents
 

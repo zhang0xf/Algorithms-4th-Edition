@@ -37,3 +37,7 @@ reference website：[Java Algorithms and Clients](https://algs4.cs.princeton.edu
 ## 用于算法测试的数据
 
 * algs_data.zip的地址：[algs_data.zip](https://algs4.cs.princeton.edu/code/)
+
+## Reference
+
+[https://github.com/kevin-wayne/algs4](https://github.com/kevin-wayne/algs4)

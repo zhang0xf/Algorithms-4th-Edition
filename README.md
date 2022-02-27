@@ -28,7 +28,7 @@ reference website：[Java Algorithms and Clients](https://algs4.cs.princeton.edu
   3. 可能存在问题：PercolationVisualizer.java和InteractivePercolationVisualizer.java由于缺少依赖项**Percolation.java**而编译不过。解决方法：在github上可找到Percolation.java，为项目新建一个文件即可。Percolation.java的地址是：[Percolation.java的地址](https://github.com/ashwinichauhan/Percolation/blob/master/Percolation.java)。或者直接删除文件。
   4. .png和.txt文件用于测试该算法，可忽略。
   5. 在工程目录下新建一个文件夹（如：src）用于存放练习题的源码。可以创建出目录结构来清晰地分类出各章节的习题。![image text](https://github.com/zhang0xf/algorithms4/blob/master/image/src.png)
-  7. Mark **src** as Sources：file -> Project Structure -> Project Settings -> Modules -> Mark as -> Sources。![image text](https://github.com/zhang0xf/algorithms4/blob/master/image/mark_src.png)
+  7. 标记为源文件：file -> Project Structure -> Project Settings -> Modules -> Mark as -> Sources。![image text](https://github.com/zhang0xf/algorithms4/blob/master/image/mark_src.png)
   8. 编写习题。
   9. [option]：将project name改为”name“，将根目录改为”name“。
 

@@ -31,10 +31,11 @@ reference website：[Java Algorithms and Clients](https://algs4.cs.princeton.edu
 
 #### 方式2：新建一个工程，使用[algs4.jar](https://algs4.cs.princeton.edu/code/)搭建环境
 
-## 用于算法测试的数据
+## 测试算法的数据
 
 * algs_data.zip的地址：[algs_data.zip](https://algs4.cs.princeton.edu/code/)
 
 ## Reference
 
-[https://github.com/kevin-wayne/algs4](https://github.com/kevin-wayne/algs4)
+* 环境搭建: [https://lift.cs.princeton.edu/java/mac/](https://lift.cs.princeton.edu/java/mac/)
+* Source: [https://github.com/kevin-wayne/algs4](https://github.com/kevin-wayne/algs4)
